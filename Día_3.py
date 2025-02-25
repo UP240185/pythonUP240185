@@ -46,3 +46,4 @@ large = float(input("Ingresa el valor de lo largo del rectángulo :"))
 width = float(input("Ingresa el valor de lo ancho del rectángulo :"))
 a = print("El area del rectngulo es :", large*width)
 p = print("El primetro del rectángulo es :", 2*(large*width))
+jj
