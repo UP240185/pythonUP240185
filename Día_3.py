@@ -46,4 +46,14 @@ large = float(input("Ingresa el valor de lo largo del rectángulo :"))
 width = float(input("Ingresa el valor de lo ancho del rectángulo :"))
 a = print("El area del rectngulo es :", large*width)
 p = print("El primetro del rectángulo es :", 2*(large*width))
-jj
+
+#Act_7
+# Obtenga el radio de un círculo usando el mensaje.
+# Calcula el área (área = pi x r x r)
+# y la circunferencia (c = 2 x pi x r) donde pi = 3.14.
+pi = 3.14
+r = float(input("Determina el valor del radio: "))
+a = print("El area del círculo es: ", pi*r*r)
+c = print("La circunferencia es :", 2*pi*r)
+
+#Act_8
