@@ -88,7 +88,53 @@ print(cadena.split(', '))
 
 #Act_15
 #¿Cuál es el carácter en el índice 0 en la cadena Codificación para todos?
-frace = 'Codificación para todos'
-print(frace.find('Co'))
+print('El carácter en el índice 0 en la cadena Codificación para todos es: ', company[0])
 
+#Act_16
+# ¿Cuál es el último índice de la cadena Coding For All?
+print("El último índice de la cadena 'Coding For All' es: ",company.rindex('l'))
+
+#Act_17
+# Qué carácter está en el índice 10 en la cadena 
+# "Codificación para todos".
+print("el índice 10 en la cadena 'Codificación para todos' es: ", company[10])
+
+#Act_18
+# Crea un acrónimo o una abreviatura para el nombre 'Python For Everyone'.
+frace = 'Python For Everyone'
+print("El acrónimo de 'Python For Everyone' es: ", frace[0] + frace[7] + frace[11])
+
+#Act_19
+#Cree un acrónimo o una abreviatura para el nombre 'Coding For All'.
+frace = 'Universidad Politécnica de Aguascalientes'
+print("El acrónimo para la face 'Universidad Politécnica de Aguascalientes' es: ", frace[0] + frace[12] + frace[27])
+
+#Act_20
+# Utilice index para determinar la posición 
+# de la primera aparición de C en Coding For All.
+frace = 'Coding For All'
+print(frace.index('C'))
+
+#Act_21
+# Utilice el índice para determinar 
+# la posición de la primera aparición de F en Codificación para todos.
+frace = 'Coding For All'
+print(frace.index('F'))
+
+#Act_22
+# Utilice rfind para determinar la posición 
+# de la última aparición de l en Codificación para todas las personas.
+frace = 'Coding For All'
+print(frace.rfind('l'))
+
+#Act_23
+# Use index o find para encontrar la posició de la primera aparición 
+# de la palabra 'porque' en la siguiente oración: 
+# 'No se puede terminar una oración con porque porque porque porque 
+# es una conjunción'
+frace = 'No se puede terminar una oración con porque porque porque porque es una conjunción'
+print(frace.find('porque'))
+
+#Act_24
+#
 
