@@ -136,5 +136,99 @@ frace = 'No se puede terminar una oración con porque porque porque porque es un
 print(frace.find('porque'))
 
 #Act_24
-#
+# Use rindex para encontrar la posición de la última aparición 
+# de la palabra porque en la siguiente oración: 
+# 'No puedes terminar una oración con porque porque 
+# porque porque es una conjunción'.
+frace = "No puedes terminar una oración con porque porque porque porque es una conjunción"
+print(frace.rindex('porque'))
+
+#Act_25
+# Corta la frase "porque porque porque" en la siguiente oración: 
+# "No puedes terminar una oración con porque porque porque porque 
+# es una conjunción"
+frace = 'No puedes terminar una oración con porque porque porque porque es una conjunción'
+la_de_a_deveras = No_puedes_terminar_una_oración_con_porque_es_una_conjunción = frace[0:41] + frace[62:80]
+print(la_de_a_deveras)
+
+#Act_26
+# Halla la posición de la primera aparición de la palabra 
+# 'porque' en la siguiente oración: 
+# 'No puedes terminar una oración 
+# con porque porque porque porque es una conjunción'.
+frace = 'No se puede terminar una oración con porque porque porque porque es una conjunción'
+print(frace.find('porque'))
+
+#Act_27
+# Corta la frase "porque porque porque" en la siguiente oración: 
+# "No puedes terminar una oración con porque porque porque porque 
+# es una conjunción"
+frace = 'No puedes terminar una oración con porque porque porque porque es una conjunción'
+la_de_a_deveras = No_puedes_terminar_una_oración_con_porque_es_una_conjunción = frace[0:41] + frace[62:80]
+print(la_de_a_deveras)
+
+#Act_28
+# ¿''Coding For All' comienza con una subcadena Coding?.
+frace = 'Coding For All'
+print("¿'Cogding For All' comienza con una subcadena Coding?", 'Coding' in "Cogding For All")
+
+#Act_29
+# ¿'Coding For All' termina con una codificación de subcadena?
+frace = 'Coding For All'
+print(cadena.endswith('All'))
+
+#Act_30
+# ' Codificación para todos', elimine los espacios finales izquierdo y derecho 
+# en la cadena dada.
+frace = ' Codificación para todos'
+frade_chida = frace.strip(' ')
+
+#Act_31
+# ¿Cuál de las siguientes variables devuelve True cuando usamos el 
+# método isidentifier():
+# 30DaysOfPython
+# thirty_days_of_python
+frace_1 = '30DaysOfPython'
+print(frace_1.isidentifier())
+frace_2 = 'thirty_days_of_python'
+print(frace_2.isidentifier())
+
+#Act_32
+# La siguiente lista contiene los nombres de algunas de las 
+# bibliotecas de python: ['Django', 'Flask', 'Bottle', 'Pyramid', 
+# 'Falcon']. Únase a la lista con un hash con cadena de espacio.
+bibliotecas = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+resultado = ' '.join(bibliotecas)
+print(resultado)
+
+#Act_33
+# Utilice la nueva secuencia de escape de línea para separar las 
+# siguientes oraciones.
+oración_1 = 'I am enjoying this challenge.'
+oracion_2 = 'I just wonder what is next.'
+print(oración_1.expandtabs('_'))
+print(oracion_2.expandtabs('_'))
+
+#Act_34
+#Utilice una secuencia de escape de tabulación para escribir las 
+# siguientes líneas.
+print("Name\t\tAge\tCountry\t\tCity\nOctavio\t\t18\tMéxico\t\tAguascalientes")
+
+#Act_35 
+# Utilice el método de formato de cadena para mostrar lo siguiente:
+radio = 10
+area = 3.14 * radio ** 2
+print('El área del circulo con radio {} son {} metros cuadrados.'.format(radio,area))
+
+#Act_36 
+# Realice lo siguiente utilizando métodos de formato de cadena:
+a = 8
+b = 6
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b)) #dos decimales depsues del punto
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
 
