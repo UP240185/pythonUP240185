@@ -69,3 +69,5 @@ comprovacion_1 = 'Estonia' in países_nórdicos
 print(comprovacion_1)
 comprovacion_2 = 'Islandia' in países_nórdicos
 print(comprovacion_2)
+
+LL
