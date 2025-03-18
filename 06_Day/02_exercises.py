@@ -1,4 +1,5 @@
 #Level_2
+
 tupla_niñas = ('Anita', 'Diana', 'Fer')
 tupla_niños = ('Liam', 'Brandon', 'Meño')
 tupla_hermanos = tupla_niñas + tupla_niños
