@@ -28,3 +28,7 @@ BA = B.union(A)
 # ¿Cuál es la diferencia simétrica entre A y B?
 print(A.symmetric_difference(B))
 
+#Act_7
+# Eliminar los conjuntos por completo.
+del AB
+del BA
