@@ -32,3 +32,5 @@ print(A.symmetric_difference(B))
 # Eliminar los conjuntos por completo.
 del AB
 del BA
+
+print("Revisado")

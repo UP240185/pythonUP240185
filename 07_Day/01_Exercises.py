@@ -23,3 +23,5 @@ print(it_companies)
 # ¿Cuál es la diferencia entre quitar y desechar?
 'Quitar".remobe()": Es utilizado para eliminar un elemento específico.'
 'Desechar ".discard()": elimina un elemento de un conjunto si existe, pero no genera un error si el elemento no está presente.'
+
+print("Revisado")

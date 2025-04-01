@@ -44,3 +44,5 @@ print("Lista 2:",second_list)
 p.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 p1, p2, p3, * escandinavos = p.countries
 print("Los paises escandinavos son", escandinavos)
+
+print("Revisado")

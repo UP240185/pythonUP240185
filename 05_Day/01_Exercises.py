@@ -130,3 +130,5 @@ print(unión)
 unión.insert(5, 'Python')
 unión.insert(6, 'SQL')
 print(unión)
+
+print("Revisado")
