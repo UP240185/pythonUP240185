@@ -39,7 +39,6 @@ print(len(estudiante_dict))
 print(estudiante_dict['skills'])
 print(type(estudiante_dict['skills']))
 
-
 #Act_6
 # Modifique los valores de las habilidades agregando una o dos habilidades
 estudiante_dict['skills'].append('Volleyball')
