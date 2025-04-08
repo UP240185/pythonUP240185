@@ -51,7 +51,7 @@ def generate_colors(format_type, number_of_colors):
         return "Formato no válido. Usa 'hexa' o 'rgb'."
     return colors
 
-
+print("Revisado")
 
 
 

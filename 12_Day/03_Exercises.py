@@ -19,3 +19,4 @@ def unique_random_numbers():
     return random.sample(range(10), 7)
 unique_numbers = unique_random_numbers()
 print("Números únicos generados:", unique_numbers)
+print("Revisado")

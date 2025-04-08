@@ -40,7 +40,7 @@ y_intercept = lambda m, x, y: y - m * x
 print(y_intercept(2, 1, 2))
 
 
-
+print("Revisado")
 
 
 

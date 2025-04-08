@@ -36,3 +36,4 @@ def rgb_color_gen():
     return (red, green, blue)
 color_rgb = rgb_color_gen()
 print("Color RGB generado:", color_rgb)
+print("Revisado")

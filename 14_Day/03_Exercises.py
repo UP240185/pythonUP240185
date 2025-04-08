@@ -29,7 +29,7 @@ countries = ['Finland', 'Iceland', 'Netherlands', 'Thailand']
 contains_land = list(filter(lambda country: 'land' in country.lower(), countries))
 print(contains_land)
 
-
+print("Revisado")
 
 
 

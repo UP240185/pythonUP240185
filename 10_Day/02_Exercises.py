@@ -18,3 +18,4 @@ for i in range(101):
         suma_impares += i
 print("La suma de los números pares es:", suma_pares)
 print("La suma de los números impares es:", suma_impares)
+print("Revisado")
